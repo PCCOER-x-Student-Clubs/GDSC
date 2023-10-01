@@ -1,11 +1,15 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import image1 from "../Images/events/session1.jpg";
 import "./events.css";
 import eventList from "./eventList";
 import { useNavigate } from "react-router-dom";
+import { Spinner } from "../Components/spinner/spinner";
 const Events = () => {
+  const [loading , setLoading] = useState(true) ;
+  useEffect(() => {setTimeout(() => {setLoading(false);}, 1500);}, []);
   const navigate = useNavigate();
   return (
+    <div>
     <section class="Events event-bg">
       <div class="Page-Header center-content">
         <h2>Upcoming and Ongoing Events</h2>
@@ -44,6 +48,7 @@ const Events = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
