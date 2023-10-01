@@ -5,8 +5,29 @@
 .Footer_Social{
     border-top: solid #333 2px ;
     padding: 3rem;
+    display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .icon-link {
   color: inherit;
   text-align: inherit;
+}
+.facebook:hover {
+  color: #1877f2;
+}
+.linkedin:hover {
+  color: #0077b5; 
+}
+.instagram:hover {
+  color: #e4405f; 
+}
+.github:hover {
+  color: #333;
+}
+.youtube:hover {
+  color: #ff0000;
+}
+.envelope:hover {
+  color: #0077b5; 
 }
