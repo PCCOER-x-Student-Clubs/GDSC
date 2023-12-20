@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.7a8bc51f.css",
+    "main.js": "./static/js/main.286b4a2a.js",
+    "static/media/image7.jpg": "./static/media/image7.a6a7fd22f16ea4089ff8.jpg",
+    "static/media/image3.jpg": "./static/media/image3.a2e1f8c1e247a99d2944.jpg",
+    "static/media/image1.jpg": "./static/media/image1.f81149ff3639e94f9880.jpg",
+    "static/media/team.png": "./static/media/team.ccc87c5bfca5342065b8.png",
+    "static/media/image4.jpg": "./static/media/image4.4acb78624860f5979f4d.jpg",
+    "static/media/image2.jpg": "./static/media/image2.b5c247bb7c17a2c5913c.jpg",
+    "static/media/image6.jpg": "./static/media/image6.be8f25871016305b3b49.jpg",
+    "static/media/session1.jpg": "./static/media/session1.bb4f266d494181a83dd6.jpg",
+    "static/media/gdsc-text.svg": "./static/media/gdsc-text.7ca219b6eb4dd6b8c4c363c9f2f3314f.svg",
+    "static/media/gdsc-logo.svg": "./static/media/gdsc-logo.185027214ed293bc34cc408781ccc3f6.svg",
+    "index.html": "./index.html",
+    "main.7a8bc51f.css.map": "./static/css/main.7a8bc51f.css.map",
+    "main.286b4a2a.js.map": "./static/js/main.286b4a2a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a8bc51f.css",
+    "static/js/main.286b4a2a.js"
+  ]
+}
