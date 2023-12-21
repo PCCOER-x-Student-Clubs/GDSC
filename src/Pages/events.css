@@ -1,27 +1,61 @@
-
-
 .Events_Warpper {
-    border-top: 1px solid #f1f1f1;
-    background-color: white;
-    padding: 3rem 0px;
+  border-top: 1px solid #f1f1f1;
+  background-color: white;
+  padding: 3rem 0px;
+}
+.title {
+  font-weight: 900;
+  font-style: oblique;
+}
+.Session_btn {
+  display: block;
+  margin: 1rem auto;
+  width: 80%;
+}
+a {
+  text-decoration: none;
+}
+===
+.event-bg {
+  background: url("../Images/bg/team.png") 50% / cover no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0%;
+}
+@media screen and (max-width: 800px) {
+  .Session_btn {
+    padding: 0.5rem 1rem;
+  }
 }
 
-.Session_btn{
-    display: block;
-    margin: 1rem auto;
-    width: 80%;
+.card-front {
+  z-index: 2;
+}
+.front,
+.back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  line-height: 300px;
+  text-align: center;
+  font-size: 60px;
+  border-radius: 5px;
+  backface-visibility: hidden;
 }
 
-.event-bg{
-    background: url("../Images/bg/team.png") 50%/ cover no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 0%;
+.card-back {
+  display: none;
+  color: white;
+  z-index: 1;
 }
-@media screen and (max-width :800px) {
-    .Session_btn{
-       padding: 0.5rem 1rem;
-    }
+
+.card.active .card-back {
+  display: flex; /* Show the back when the card is active */
+}
+
+.card.active .card-front {
+  display: none;
 }
 
