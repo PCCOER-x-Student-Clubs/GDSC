@@ -29,7 +29,7 @@ export const Images = {
   Vishal: require("./GDSC_team/Vishal.JPG"),
   Yash1: require("./GDSC_team/Yash1.png"),
   Purva: require("./GDSC_team/Purva.jpg"),
-  Piyush: require("./GDSC_team/piyush.jpeg"),
+  Piyush: require("./GDSC_team/piyush.jpg"),
   Shre: require("./GDSC_team/Shre.jpeg"),
   Jay: require("./GDSC_team/Jay.jpeg"),
   Ashwin: require("./GDSC_team/Ashwin.jpeg"),
